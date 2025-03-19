@@ -41,18 +41,17 @@ img {
 }
 
 /* Style rules for header area */
-.mobile h1,
-.mobile h3 {
+
+.mobile h1 {
+    font-family: "Emblema One", cursive;
     padding: 2%;
     text-align: center;
 }
 
-.mobile h1 {
-    font-family: "Emblema One", cursive;
-}
-
 .mobile h3 {
     font-family: "Lora", serif;
+    padding: 2%;
+    text-align: center;
 }
 
 /* Style rules for navigation area */
@@ -155,7 +154,7 @@ footer a {
 @media screen and (min-width: 620px), print {
     /*Tablet Viewport: Show tab-desk class, hide mobile class */
 
-    .tablet-desktop {
+    .tab-desk {
         display: block;
     }
 
